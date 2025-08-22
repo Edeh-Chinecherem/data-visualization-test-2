@@ -28,7 +28,7 @@ def create_trend_chart(df):
 
 def create_category_chart(df):
     """
-    Create bar chart comparing revenue  by Category for 2024
+    Create bar chart comparing revenue by Category for 2024
     """
     # Filter for 2024 data only
     df_2024 = df[df['Transaction Date'].dt.year == 2024].copy()
